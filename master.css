@@ -1,0 +1,61 @@
+body{
+  background: url("media/background.jpg");
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 150px;
+  text-decoration: none;
+
+}
+.main{
+  background-color: white;
+  border-radius: 1%;
+}
+h1{
+  text-align: center;
+  color: yellow;
+  font-family: 'Pokemon solid';
+  text-shadow: 2px 2px 8px blue;
+}
+p{
+    text-align: center;
+      font-family: 'Pokemon solid';
+}
+img{
+  border: solid black 1px;
+  border-radius: 2%;
+  display: block;
+  margin: 0 auto;
+}
+li a:hover {
+  background-color: #111;
+}
+.main a {
+  text-decoration: none;
+  font-size: 46px;
+  text-align: center;
+  margin-left: 35%;
+  font-family: 'Pokemon solid';
+  color: green;
+  transition: .5s;
+}
+.main a:hover {
+  font-size: 50px;
+  text-decoration: underline;
+}
